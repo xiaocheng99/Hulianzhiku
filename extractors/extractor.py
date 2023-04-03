@@ -1,6 +1,6 @@
 from pprint import pprint
 from paddlenlp import Taskflow
-from connector import Data
+from get_accused_subject.connector import Data
 import time
 import xlsxwriter as xw
 
