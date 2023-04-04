@@ -4,7 +4,7 @@ import jieba
 import xlsxwriter as xw
 from get_accused_subject.connector import Data
 
-jieba.load_userdict("58q.txt")
+jieba.load_userdict("accused_similair_tittle_nt.txt")
 import jieba.posseg as pseg
 
 def get_data(sql):

@@ -8,8 +8,8 @@
 
 label=' nt'
 
-ff = open('58q.txt', 'w', encoding='utf8')  #打开一个文件，可写模式
-with open('accused_similair_tittle.txt', 'r', encoding='utf8') as f:  #打开一个文件只读模式
+ff = open('dict/min_len_title_nt.txt', 'w', encoding='utf8')  #打开一个文件，可写模式
+with open('dict/min_len_title.txt', 'r', encoding='utf8') as f:  #打开一个文件只读模式
     line = f.readlines()
     i = 0
     for line_list in line:
